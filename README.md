@@ -51,10 +51,19 @@ I selected specific columns to represent the "Emotional DNA" of the US populatio
 This project is designed to run in a Jupyter Notebook environment within VS Code. Follow these steps to execute the analysis:
 
 **Prerequisites**
+
 Ensure you have Python installed along with the necessary data science libraries. You can install them by running this command in your terminal:
 
 Bash
 pip install pandas matplotlib seaborn scipy
+
+**Data Access**
+
+Because the raw data exceeds GitHub's file size limits (2.8GB), the CSVs must be downloaded separately:
+
+Download spotify.csv from Google Drive -> https://drive.google.com/file/d/1l3grfjWPG83gvx7cKn5CHnYav9CJ4tI6/view?usp=drive_link
+
+Download covid_data.csv -> https://health.google.com/covid-19/open-data/raw-data
 
 **Step-by-Step Execution:**
 
